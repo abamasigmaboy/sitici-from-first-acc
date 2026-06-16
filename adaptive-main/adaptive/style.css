@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(шрифт/RobotoRegular-3m4L.ttf);
+}
+body{
+    color: #004449;
+    font-family: 'Roboto' , sans-serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #004449;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.4s all ease;
+}
+a:hover{ color:greenyellow; }
+nav p{
+    font-size: 12px;
+    color:#D7FFC2;
+}
+.nachalo{
+    background-color: #004449;
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.niz{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.niz p{
+    font-size: 18px;
+}
+.foto{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.nachalo h1{
+    font-size: 80px;
+    color: #FFAC7F;
+    font-weight: 400;
+}
+.nachalo h1:first-line{ color: white; }
+.nachalo p{
+    margin: 25px 0;
+    font-size: 32px;
+    color: white;
+}
+.nachalo button{
+    border-radius: 30px;
+    border: none;
+    width: 338px;
+    height: 56px;
+    background-color: #0BFF80;
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bambam{
+    background-image: url(foto/gori.png);
+    width: 100%;
+    height: 1200px;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+p{ 
+    font-size: 16px;
+    line-height: 1.5;
+}
+h2{ font-size: 24px;     
+    font-weight: 400;
+}
+h1{ font-size: 48px;     
+    font-weight: 400;
+}
+.text{
+    background-color: white;
+    border-radius: 7px;
+    width: 357px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.above{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.verh{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.text p{
+    text-align: center;
+    margin: 0 auto;
+}
+.p1{
+    line-height: 1.5;
+    font-size: 11px;
+}
+.gone{ color: #007A83; margin-left: 10px;}
+.h1_gone{
+    display: flex;
+}
+button{
+    color: white;
+    background-color: #483CFF;
+    border-radius: 50px;
+    width: 140px;
+    height: 100px;
+    border: none;
+    line-height: 1.5;
+}
+.booked{
+    background-color: #D7FFC2;
+    width: 765px;
+    height: 370px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.above{
+   text-align: center;
+}
+.travels{
+    height: 894px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.price{
+    background-color: #FDD6BA;
+    border-radius: 50px;
+    width: 126px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.travels h2{
+    font-size: 25px;
+    white-space: nowrap;
+}
+.primer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+span{
+    background-color: #D7FFC2;
+    margin: 0 10px;
+}
+.travels button, .s4_button button{
+    background-color: #004449;
+    border-radius: 40px;
+     border: none;
+     width: 48px;
+    height: 48px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mir, .b1{
+    transform: scaleX(-1);
+}
+.i, .i2, .ic{
+    width: 303px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dofigatxt{
+     background-image: url(foto/okean.png);
+    width: 100%;
+    height: 1078px;
+    display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dofigatxt h1{
+    font-size: 64px;}
+.blok{
+    width: 115%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blok div, .del{
+    width: 326px;
+    height: 365px;
+    background-color: white;
+    margin: 0 10px;
+    padding: 40px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.zagolovok{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.s4_button{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kiska{
+    width: 100%;
+    height: 664px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.kisa{
+    position: absolute;
+    width: 58%;
+    height: 565px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.never{
+    width: 944px;
+    height: 388px;
+    background-color: #BAEBFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer{
+    width: 100%;
+    height: 575px;
+    background-color: #004449;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+footer p{
+    color: white;
+}
+.last{
+    padding: 50px 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    line-height: 3;
+}
+.o{
+    margin-bottom: 40px;
+}
+footer .e{
+    padding: 0 0 0 250px;
+}
+.conec{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.conec h2{
+    font-size: 14px;
+}
+
+@media (min-width:430px) and (max-width:740px)
+{
+    .nachalo{height: 1000px;}
+    .nachalo h1{font-size: 55px;}
+    .nachalo p {font-size:22px;}
+    .nachalo button{
+    width: 200px;
+    height: 35px;
+    font-size: 10px;
+    }
+    .niz p{ font-size: 15px; }
+    .foto img{
+        width: 45px;
+        height: 34px;
+    }
+    .bambam{ justify-content: space-between;}
+    .text{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+    }
+    .one{ width: 80%; }
+    .one img{
+        width: 100px;
+        height: 125px;
+    }
+    .text h2{font-size: 24px;}
+    .text p{font-size: 10px;}
+    .verh{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .above{
+    width: 100%;
+    height: 70%;
+    }
+    .above h1{
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+    .p1{
+        line-height: 1.5;
+        font-size: 11px;
+    }
+    button{
+        width: 100px;
+        height: 60px;
+        font-size: 10px;
+    }
+    .h1_gone h1{font-size: 35px;}
+    .booked{
+        width: 100%;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .price{
+        width: 56px;
+        height: 30px;
+        position: relative;
+        bottom: 10px;
+    }
+    .travels{ height: 500px; }
+    .travels .price {font-size: 20px;}
+    .travels h2{
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .p1{
+        font-size: 8px; 
+        position: relative;
+        bottom: 5px;
+    }
+    .travels h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .travels button{
+        width: 48px;
+        height: 48px;
+        margin: 15px;
+    }
+    .i, .ic {
+        width: 100px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .primer{
+        width: 100%;
+        height: 300px;
+        gap: 8px;
+    }
+    .primer button, .s4_button button{
+        width: 24px;
+        height: 24px;
+    }
+    .primer button{
+        position: relative;
+        bottom: 30px;
+        margin: 10px;
+    }
+    .primer button img, .s4_button button img
+    {width: 15px;height: 15px;}
+    .i img{
+        width: 92px;
+        height: auto;
+        position: relative;
+    }
+    .ic img{width: 102px;height: auto;}
+    .i h2 img, .ic h2 img{
+        width: 15px;
+        height: 15px;
+    }
+    .i h2, .ic h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .i2{display: none;}
+    .zagolovok h1{font-size: 40px;}
+    .dofigatxt img{
+        width: 50%;
+        height: auto;
+    }
+    .blok .del{display: none;}
+    .blok{
+        width: 150%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .blok div{
+        margin: 0;
+        height: 300px;
+    }
+    .blok div p{ font-size: 11px; }
+    .never{
+        width: 95%;
+        height: 80%;
+        justify-content: space-around;
+    }
+    .never h1{
+        width: 80%;
+        font-size: 35px;
+    }
+    .never h2{ font-size: 20px; }
+    .kisa{
+        width: 100%;
+        height: auto;
+        top: 3835px;
+        right: 70px;
+    }
+    .kisa img{
+        width: 60%;
+        height: auto;
+    }
+    footer{ height: 650px; }
+    footer .last{
+        flex-wrap: wrap;
+        padding: 0 15px;
+        gap: 30px;
+    }
+    .last ul li p{font-size: 13px;}
+    footer .ale{padding: 0 0 0 117px; }
+    .o{ margin-bottom: 20px; }
+}
