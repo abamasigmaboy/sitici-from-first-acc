@@ -1,0 +1,1545 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "Play";
+    src: url(font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+.menu{
+    background-image: url(foto/serdce.png);
+    height: 99vh;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+header{
+    width: 98vw;
+    height: 18vh;
+}
+nav{
+    width: 98vw;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Play", sans-serif;
+}
+nav .krasivo{
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+ul{
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+.inup{
+    width: 12%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: "Play", sans-serif;
+}
+.inup .inl{
+    color: rgb(250, 250, 250);
+}
+.inup button{
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    width: 100px;
+    height: 48px;
+    border-radius: 30px;
+    box-shadow:  0  0 1vh #F9C06A ;
+    cursor: pointer;
+}
+.left{
+    width: 40vw;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.weve{
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items:start ;
+    flex-direction: column;
+    font-family: "Play", sans-serif;
+}
+.weve p{
+    font-size: 20px;
+    color: white;
+}
+.weve h1{
+    width: 25vw;
+    font-size: 220px;
+    color: white;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 270px;
+    display: flex;
+    justify-content: center;
+}
+.weve button{
+    width: 134px;
+    height: 48px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 30px;
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.bestcof{
+    width: 99vw;
+}
+.osn{
+    width: 99vw;
+}
+.beancof{
+    width: 85vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+.coffe{
+    width: 585px;
+    height: 440px;
+    font-family: "Play", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.coffe h1{
+    color: #603809;
+    font-size: 40px;
+    width: 582px;
+    height: 72px;
+}
+.coffe p {
+    width: 585px;
+    height: 170px;
+    font-size: 20px;
+    color: #707070;
+}
+.coffe button{
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    width: 134px;
+    height: 48px;
+    border-radius: 30px;
+    box-shadow:  0  0 1vh #F9C06A ;
+    font-family: "Play", sans-serif;
+}
+.cup img{
+    width: 450px;
+    height: 430px;
+}
+.vspleskp{
+    position:relative;
+    bottom: 8vh;
+    width: 60vw;
+    height: 230px;
+}
+.osn2{
+    width: 94vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Play", sans-serif;
+}
+.texh h1{
+    color: #603809;
+    font-size: 54px;
+}
+.texh p{
+    display: flex;
+    justify-content: center;
+    color: #707070;
+    font-size: 20px;
+    height: 5vh;
+}
+.enjoy{
+    height: 70vh;
+}
+.fotocof{
+    width: 94vw;
+    height: 46vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Play", sans-serif;
+}
+.tabl{
+    width: 67vw;
+    height: 41vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lovecoff{
+    width: 280px;
+    height: 364px;
+    background-color: #FFF9F1;
+}
+.fotocof h1{
+    width: 14vw;
+    height: 4vh;
+    font-size: 22px;
+    color: #603809;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotocof h2{
+    width: 14vw;
+    height: 3vh;
+    color: #1E1E1E;
+    font-size:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotocof p{
+    width: 14vw;
+    height: 3vh;
+    color: #603809;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fotocof button{
+    width: 120px;
+    height: 44px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    font-size: 16px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 4vw;
+    top: 2vh;
+}
+.vesny{
+    width: 280px;
+    height: 364px;
+    background-color: #FFF9F1;
+}
+.coffeeee{
+    width: 280px;
+    height: 364px;
+    background-color: #FFF9F1;
+}
+.expresso{
+    width: 280px;
+    height: 364px;
+    background-color: #FFF9F1 ;
+}
+.vspleskl{
+    width: 99vw;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 15vh;
+}
+.dayy{
+    width: 94vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Play", sans-serif;
+}
+.arew h1{
+    color: #603809;
+    font-size: 54px;
+}
+.arew p{
+    color: #707070;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.tabl2{
+    width: 94vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Play", sans-serif;
+}
+.obman{
+    width: 67vw;
+    height: 41vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.first{
+    width: 280px;
+    height: 284px;
+    background-color: #FFEED8;
+}
+.medal{
+    width: 280px;
+    height: 284px;
+    background-color: #FFF9F1;
+}
+.cup1{
+    width: 280px;
+    height: 284px;
+    background-color: #FFF9F1;
+}
+.likeb{
+    width: 280px;
+    height: 284px;
+    background-color: #FFF9F1;
+}
+.tabl2 .bib{
+    width: 14vw;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabl2 h1{
+    display: flex;
+    justify-content: center;
+    width: 14vw;
+    font-size: 28px;
+    color: #603809;
+}
+.tabl2 .asd {
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+}
+.tabl2 p{
+    color: #707070;
+    font-size: 20px;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+}
+.idea{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: "Play", sans-serif;
+    height: 21vh;
+}
+.greatf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.greatf p{
+    color: #707070;
+    font-size: 20px;
+}
+.greatf h1{
+    color: #603809;
+}
+.greatf button{
+    width: 134px;
+    height: 48px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.beanfon{
+    background-image: url(foto/browncof.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.cont{
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+}
+.tohave{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    font-family: "Play", sans-serif;
+}
+.tohave .chan{
+    width: 30vw;
+    height: 20vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.chan h1{
+    font-size: 50px;
+}
+.giv p{
+    font-size: 20px;
+    color: white;
+    width: 26vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.tohave button{
+    width: 134px;
+    height: 48px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 30px;
+    font-family: "Play", sans-serif;
+    font-weight: 800;
+}
+.cukp{
+    position: relative;
+    left: 18vw;
+}
+.cja{
+    position: relative;
+    left: 6vw;
+}
+.ourcof{
+    height: 90vh;
+    font-family: "Play", sans-serif;
+}
+.rep{
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rep h1{
+    color: #603809;
+    font-size: 54px;
+}
+.rep p{
+    color: #707070;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.mlo{
+    width: 91vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Lorem{
+    width: 50vw;
+    height: 52vh;
+    background-color: #FFF9F1;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+.lpoq{
+    width: 40vw;
+    height: 38vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Lorem p{
+    font-size: 18px;
+    color: #707070;
+    line-height: 36px;
+}
+.Lorem h1{
+    color: #603809;
+    font-size: 32px;
+    height: 6vh;
+}
+.Lorem h2{
+    color: #707070;
+    font-size: 20px;
+}
+.jonny{
+    position: relative;
+    top: 5vh;
+}
+.knopka{
+    position: relative;
+    left: 7vw;
+    width: 82px;
+    height: 80px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 16px;
+}
+.knopka2{
+    position: relative;
+    left: 52vw;
+    width: 82px;
+    height: 80px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 16px;
+}
+.Lorem h3{
+    color: #603809;
+    font-size: 90px;
+    position: relative;
+    right: 20vw;
+    top: 10vh;
+}
+.subscribe{
+    background-image: url(foto/bean\ niz.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 35vh;
+}
+.sub{
+    width: 96vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ribe{
+    font-family: "Play", sans-serif;
+}
+.ribe h1{
+    color: white;
+    font-size: 54px;
+    height: 17vh;
+    display: flex;
+    align-items: center;
+}
+.ribe p{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    height: 6vh;
+}
+.entere{
+    height: 8vh;
+}
+.entere .ent{
+    width: 580px;
+    height: 60px;
+    background-color: #FFF9F1;
+    border: 1px solid #FFF9F1;
+    border-radius: 10px;
+    font-family: "Play", sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    color: #707070;
+}
+.entere .subsa{
+    position: relative;
+    left: 27vw;
+    bottom: 6.3vh;
+    width: 137px;
+    height: 60px;
+    background-color: #F9C06A;
+    border: 1px solid #F9C06A;
+    border-radius: 10px;
+    font-family: "Play", sans-serif;
+    font-size: 22px;
+    color: #603809;
+}
+.pnw{
+    position: relative;
+    bottom: 15vh;
+    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+}
+.beae{
+    background-image: url(foto/ogrizok.png);
+    height: 70vh;
+    background-color:#603809;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gho{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+}
+.aweq{
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btop{
+    width: 19vw;
+    height: 25vh;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.btop h1{
+    font-size: 54px;
+    color: white;
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 8vh;
+}
+.btop p{
+    color: white;
+    font-size: 14px;
+    font-family: "Play", sans-serif;
+    height: 14vh;
+}
+.About{
+    width: 9vw;
+    height: 24vh;
+    line-height: 34px;
+    font-family: "Play", sans-serif;
+}
+.About h2{
+    color: white;
+    font-size: 26px;
+    height: 8vh;
+}
+.About p {
+    color: white;
+    font-size: 18px;
+}
+.Company{
+    width: 9vw;
+    height: 24vh;
+    line-height: 34px;
+    font-family: "Play", sans-serif;
+}
+.Company h2{
+    color: white;
+    font-size: 26px;
+    height: 8vh;
+}
+.Company p{
+    color: white;
+    font-size: 18px;
+}
+.Contact_Us{
+    width: 9vw;
+    height: 24vh;
+    line-height: 34px;
+    font-family: "Play", sans-serif;
+}
+.Contact_Us h2{
+    color: white;
+    font-size: 26px;
+    height: 8vh;
+}
+.Contact_Us p{
+    color: white;
+    font-size: 18px;
+    width: 19vw;
+}
+@media (min-width:809px) and (max-width:810px){
+    header{
+        width:90vw;
+        height:8vh;
+        margin:0 auto;
+    }
+    nav .krasivo{
+        font-size:2.5em;
+    }
+    ul{
+        width:50%;
+        font-size:0.9em;
+        gap:15px;
+    }
+    .inup{
+        gap:15px;
+        font-size:0.85em;
+    }
+    .inup button{
+        width:80px;
+        height:36px;
+        font-size:0.8em;
+    }
+    .menu{
+        height:70vh;
+        background-position:center;
+    }
+    .left{
+        width:90vw;
+        height:50vh;
+        justify-content:flex-start;
+        padding-top:50px;
+    }
+    .weve{
+        width:60vw;
+        height:auto;
+        margin-top:5%;
+        margin-left:5%;
+    }
+    .weve h1{
+        width:100%;
+        font-size:5.5em;
+        line-height:1.1;
+    }
+    .weve p{
+        font-size:1.2em;
+        margin:15px 0;
+    }
+    .weve button{
+        width:150px;
+        height:48px;
+        font-size:1em;
+        margin-top:20px;
+    }
+    .beancof{
+        flex-direction:column;
+        margin-top:50px;
+        padding:40px 20px;
+        gap:30px;
+        height:auto;
+    }
+    .coffe{
+        width:100%;
+        height:auto;
+        text-align:center;
+        align-items:center;
+    }
+    .coffe h1{
+        font-size:2.5em;
+        width:80vw;
+        height:auto;
+        margin:0 auto;
+    }
+    .coffe p{
+        font-size:1.3em;
+        width:80vw;
+        height:auto;
+        margin:15px auto;
+        line-height:1.5;
+    }
+    .coffe button{
+        width:150px;
+        height:48px;
+        font-size:1em;
+        margin:10px auto;
+        display:block;
+    }
+    .cup{
+        width:100%;
+        height:auto;
+        display:flex;
+        justify-content:center;
+    }
+    .cup img{
+        width:350px;
+        height:350px;
+    }
+    .vspleskp{
+        display:none;
+    }
+    .enjoy{
+        height:auto;
+        margin-top:50px;
+        padding-bottom:30px;
+    }
+    .texh h1{
+        font-size:2.8em;
+        height:auto;
+        padding:20px;
+        text-align:center;
+    }
+    .texh p{
+        font-size:1.3em;
+        padding:0 20px 20px;
+        text-align:center;
+    }
+    .fotocof{
+        flex-wrap:wrap;
+        padding:20px;
+        gap:20px;
+        justify-content:center;
+        height:auto;
+    }
+    .tabl{
+        flex-wrap:wrap;
+        gap:20px;
+        height:auto;
+        justify-content:center;
+    }
+    .lovecoff,.vesny,.coffeeee,.expresso{
+        width:45%;
+        height:350px;
+        margin-bottom:20px;
+    }
+    .fotocof h1{
+        font-size:1.4em;
+        width:100%;
+    }
+    .fotocof h2{
+        font-size:1em;
+        width:100%;
+    }
+    .fotocof p{
+        font-size:1em;
+        width:100%;
+    }
+    .fotocof button{
+        width:120px;
+        height:40px;
+        font-size:0.9em;
+        left:50%;
+        margin-left:-60px;
+        top:15px;
+    }
+    .vspleskl{
+        display:none;
+    }
+    .arew h1{
+        font-size:2.8em;
+        height:auto;
+        padding:20px;
+        text-align:center;
+    }
+    .arew p{
+        font-size:1.3em;
+        padding:0 20px 20px;
+        text-align:center;
+    }
+    .tabl2{
+        height:auto;
+        flex-wrap:wrap;
+        padding:30px 20px 0;
+        gap:20px;
+        justify-content:center;
+    }
+    .obman{
+        flex-wrap:wrap;
+        gap:20px;
+        height:auto;
+        justify-content:center;
+    }
+    .first,.medal,.cup1,.likeb{
+        width:45%;
+        height:250px;
+    }
+    .tabl2 h1{
+        font-size:1.4em;
+        width:100%;
+        text-align:center;
+    }
+    .tabl2 p{
+        font-size:1em;
+        width:80%;
+        text-align:center;
+        margin:0 auto;
+    }
+    .idea{
+        margin-top:30px;
+        height:auto;
+    }
+    .greatf h1{
+        font-size:2em;
+        height:auto;
+        padding:15px;
+        text-align:center;
+    }
+    .greatf p{
+        font-size:1.2em;
+        padding:0 15px;
+        text-align:center;
+    }
+    .greatf button{
+        width:140px;
+        height:44px;
+        font-size:0.95em;
+        margin:0 auto;
+        display:block;
+    }
+    .beanfon{
+        margin-top:50px;
+        height:auto;
+        padding:40px 20px;
+    }
+    .cont{
+        flex-direction:column;
+        align-items:center;
+    }
+    .tohave{
+        width:90%;
+        height:auto;
+        margin:20px auto;
+        text-align:center;
+        align-items:center;
+    }
+    .chan{
+        width:100%;
+        height:auto;
+    }
+    .chan h1{
+        width:100%;
+        font-size:2.2em;
+        height:auto;
+        margin-bottom:15px;
+        text-align:center;
+    }
+    .giv p{
+        width:100%;
+        font-size:1.2em;
+        height:auto;
+        margin-bottom:20px;
+        text-align:center;
+    }
+    .tohave button{
+        width:140px;
+        height:44px;
+        font-size:0.95em;
+    }
+    .cukp,.cja{
+        display:none;
+    }
+    .ourcof{
+        height:auto;
+        padding:40px 20px;
+    }
+    .rep{
+        height:auto;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding:0 15px 20px;
+    }
+    .rep h1{
+        font-size:2.5em;
+        margin-bottom:10px;
+    }
+    .rep p{
+        font-size:1.1em;
+        margin-top:10px;
+    }
+    .mlo{
+        width:90vw;
+        margin:0 auto 30px;
+        display:flex;
+        justify-content:center;
+    }
+    .Lorem{
+        width:80vw;
+        height:auto;
+        padding:25px 20px 40px;
+        text-align:center;
+    }
+    .lpoq{
+        width:90%;
+        height:auto;
+    }
+    .Lorem p{
+        font-size:1em;
+        line-height:1.6;
+    }
+    .Lorem h1{
+        font-size:1.5em;
+        height:auto;
+        margin-top:15px;
+    }
+    .Lorem h2{
+        font-size:1em;
+    }
+    .Lorem h3{
+        font-size:3.5em;
+        right:25vw;
+        top:3vh;
+    }
+    .knopka{
+        left:5vw;
+        width:60px;
+        height:60px;
+    }
+    .knopka2{
+        left:80vw;
+        width:60px;
+        height:60px;
+    }
+    .subscribe{
+        height:auto;
+        padding:40px 20px;
+        display:flex;
+        justify-content:center;
+    }
+    .sub{
+        width:95vw;
+        height:auto;
+        padding:20px;
+    }
+    .ribe h1{
+        font-size:2.5em;
+        height:auto;
+        text-align:center;
+        margin-bottom:15px;
+    }
+    .ribe p{
+        font-size:1.1em;
+        height:auto;
+        text-align:center;
+        margin-bottom:20px;
+    }
+    .entere{
+        height:auto;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+    .entere .ent{
+        width:90%;
+        height:50px;
+        font-size:1em;
+        padding-left:15px;
+    }
+    .entere .subsa{
+        width:90%;
+        height:50px;
+        font-size:1.1em;
+        margin-top:10px;
+        left:auto;
+        position:static;
+    }
+    .pnw{
+        display:none;
+    }
+    .beae{
+        height:auto;
+        padding:40px 20px;
+    }
+    .gho{
+        width:95vw;
+    }
+    .aweq{
+        width:90vw;
+        flex-wrap:wrap;
+        margin-top:0;
+        gap:30px;
+        justify-content:center;
+    }
+    .btop{
+        width:45%;
+        height:auto;
+        align-items:center;
+        text-align:center;
+    }
+    .btop h1{
+        font-size:2.8em;
+        height:auto;
+    }
+    .btop p{
+        font-size:0.9em;
+        height:auto;
+        line-height:1.5;
+    }
+    .About,.Company,.Contact_Us{
+        width:45%;
+        height:auto;
+        line-height:1.5;
+        text-align:center;
+    }
+    .About h2,.Company h2,.Contact_Us h2{
+        font-size:1.3em;
+        height:auto;
+    }
+    .About p,.Company p,.Contact_Us p{
+        font-size:0.9em;
+    }
+    .Contact_Us p{
+        width:100%;
+    }
+}
+@media (min-width: 380px) and (max-width: 390px) {
+    .menu {
+        height: 70vh;
+        background-position: center;
+    }
+    header {
+        width: 95vw;
+        height: auto;
+        padding: 15px 0;
+    }
+    nav {
+        flex-direction: column;
+        gap: 165px;
+        height: auto;
+        padding: 0 10px;
+    }
+    nav .krasivo {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+    ul {
+        display: none;
+    }
+    .inup {
+        gap: 10px;
+        font-size: 0.75em;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .inup button {
+        width: 80px;
+        height: 35px;
+        font-size: 0.75em;
+    }
+    .left {
+        width: 100%;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .weve {
+        width: 90vw;
+        height: auto;
+        margin-top: 15%;
+        font-size: 0.8em;
+        align-items: center;
+        text-align: center;
+    }
+    .weve h1 {
+        width: 100%;
+        font-size: 4em;
+        line-height: 1;
+    }
+    .weve p {
+        font-size: 0.95em;
+        margin-top: 10px;
+    }
+    .weve button {
+        width: 140px;
+        height: 40px;
+        font-size: 1.4em;
+        margin-top: 15px;
+        padding: 0 15px;
+    }
+    .beancof {
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 15%;
+        gap: 20px;
+        height: auto;
+    }
+    .coffe {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .coffe h1 {
+        font-size: 1.8em;
+        width: 90vw;
+        height: auto;
+        margin: 0 auto;
+    }
+    .coffe p {
+        font-size: 1em;
+        width: 90vw;
+        height: auto;
+        margin: 15px auto;
+        line-height: 1.4;
+    }
+    .coffe button {
+        width: 140px;
+        height: 40px;
+        font-size: 0.8em;
+        margin: 0 auto;
+        display: block;
+    }
+    .cup {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .cup img {
+        width: 250px;
+        height: 250px;
+    }
+    .vspleskp {
+        display: none;
+    }
+    .enjoy {
+        height: auto;
+        margin-top: 10%;
+        padding-bottom: 30px;
+    }
+    .texh h1 {
+        font-size: 2em;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .texh p {
+        font-size: 1.1em;
+        padding: 0 15px 20px;
+        text-align: center;
+    }
+    .fotocof {
+        flex-direction: column;
+        padding: 20px;
+        gap: 25px;
+        height: auto;
+    }
+    .tabl {
+        flex-direction: column;
+        gap: 25px;
+        height: auto;
+    }
+    .lovecoff, .vesny, .coffeeee, .expresso {
+        width: 280px;
+        height: 364px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .fotocof h1 {
+        font-size: 1.4em;
+        width: 100%;
+    }
+    .fotocof h2 {
+        font-size: 1em;
+        width: 100%;
+    }
+    .fotocof p {
+        font-size: 1em;
+        width: 100%;
+    }
+    .fotocof button {
+        width: 120px;
+        height: 44px;
+        font-size: 0.8em;
+        left: 50%;
+        margin-left: -60px;
+        top: 2vh;
+    }
+    .vspleskl {
+        display: none;
+    }
+    .arew h1 {
+        font-size: 2em;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .arew p {
+        font-size: 1.1em;
+        padding: 0 15px 20px;
+        text-align: center;
+    }
+    .tabl2 {
+        flex-direction: column;
+        padding: 30px 15px 0;
+        gap: 20px;
+        height: auto;
+    }
+    .obman {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        align-items: center;
+    }
+    .first, .medal, .cup1, .likeb {
+        width: 280px;
+        height: 284px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .tabl2 h1 {
+        font-size: 1.4em;
+        width: 100%;
+        text-align: center;
+    }
+    .tabl2 p {
+        font-size: 1em;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .idea {
+        margin-top: 30px;
+        height: auto;
+        text-align: center;
+    }
+    .greatf h1 {
+        font-size: 1.6em;
+        height: auto;
+        padding: 15px;
+        text-align: center;
+    }
+    .greatf p {
+        font-size: 1.1em;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .greatf button {
+        width: 134px;
+        height: 44px;
+        font-size: 0.8em;
+        margin: 0 auto;
+        display: block;
+    }
+    .beanfon {
+        margin-top: 15%;
+        height: auto;
+        padding: 30px 15px;
+        background-position: center;
+    }
+    .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tohave {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+        align-items: center;
+    }
+    .chan {
+        width: 100%;
+        height: auto;
+    }
+    .chan h1 {
+        width: 100%;
+        font-size: 1.8em;
+        height: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .giv p {
+        width: 100%;
+        font-size: 1em;
+        height: auto;
+        margin-bottom: 25px;
+        text-align: center;
+        line-height: 1.4;
+    }
+    .tohave button {
+        width: 134px;
+        height: 44px;
+        font-size: 0.8em;
+        margin: 0 auto;
+        display: block;
+    }
+    .cukp, .cja {
+        display: none;
+    }
+    .ourcof {
+        height: auto;
+        padding: 30px 15px;
+    }
+    .rep {
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+    .rep h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .rep p {
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .mlo {
+        width: 100vw;
+        margin: 20px auto;
+    }
+    .Lorem {
+        width: 280px;
+        height: auto;
+        padding: 25px 15px;
+        position: relative;
+        right: 55px;
+        z-index: 1;
+        text-align: center;
+    }
+    .lpoq {
+        width: 95%;
+        height: auto;
+    }
+    .Lorem p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .Lorem h1 {
+        font-size: 22px;
+        height: auto;
+        margin-top: 15px;
+    }
+    .Lorem h2 {
+        font-size: 15px;
+    }
+    .Lorem h3 {
+        font-size: 50px;
+        right: 35vw;
+        top: 3vh;
+    }
+    .knopka {
+        left: 0vw;
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+    }
+    .knopka2 {
+        left: 71vw;
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+    }
+    .subscribe {
+        height: 140vh;
+        padding: 30px 0;
+        background-position: center;
+    }
+    .sub {
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+    .ribe h1 {
+        font-size: 28px;
+        height: auto;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .ribe p {
+        font-size: 15px;
+        height: auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .entere {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .entere .ent {
+        width: 280px;
+        height: 50px;
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .entere .subsa {
+        width: 280px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 15px;
+        left: auto;
+        position: static;
+    }
+    .pnw {
+        display: none;
+    }
+    .beae {
+        background-image: none;
+        height: auto;
+        padding: 40px 0;
+    }
+    .gho {
+        width: 100vw;
+    }
+    .aweq {
+        width: 90vw;
+        flex-direction: column;
+        margin-top: -110vh;
+        gap: 0px;
+        align-items: flex-start;
+        padding: 0 20px;
+    }
+    .btop {
+        width: 100%;
+        height: auto;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .btop h1 {
+        font-size: 36px;
+        height: auto;
+    }
+    .btop p {
+        font-size: 12px;
+        height: auto;
+        line-height: 1.5;
+    }
+    .About, .Company, .Contact_Us {
+        width: 100%;
+        height: auto;
+        line-height: 28px;
+        text-align: left;
+    }
+    .About h2, .Company h2, .Contact_Us h2 {
+        font-size: 20px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .About p, .Company p, .Contact_Us p {
+        font-size: 15px;
+    }
+    .Contact_Us p {
+        width: 100%;
+    }
+}
+@media (min-width: 1439px) and (max-width: 1440px) {
+    .chan h1 {
+        font-size: 44px;
+    }
+    .giv p {
+        font-size: 1.5em;
+    }
+    .tohave button {
+        height: 52px;
+    }
+    .greatf h1 {
+        font-size: 42px;
+    }
+    .greatf button {
+        height: 52px;
+    }
+    .entere .subsa {
+        left: 38vw;
+        bottom: 7vh;
+    }
+    .pnw {
+        width: 100vw;
+    }
+    .aweq {
+        width: 65vw;
+    }
+}
