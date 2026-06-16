@@ -1,0 +1,684 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+.logo{
+    width: 170px;
+    height: 35px;
+}
+.logo h1{
+    background-image: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 34px;
+}
+.head2{
+    width: 470px;
+    height: 40px;
+}
+nav ul{
+    font-size: 19px;
+    width: 470px;
+    height: 39px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #A3A3A3;
+}
+.home{
+    line-height: 1;
+    text-decoration: none;
+    color: #A3A3A3;
+    position: relative;
+    top: 10px;
+    background: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home a{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+}
+.log_con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    font-size: 18px;
+}
+.log{
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+    border: none;
+    border-radius: 100px;
+    width: 163px;
+    height: 40px;
+    color: #FFFFFF;
+}
+.sumka{
+    background: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+    border: none;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+body{
+    background: linear-gradient(245.71deg, #1E0C00 4.96%, #1F0700 33.7%, #170A00 68.41%, #1E0D00 96.42%);
+
+}
+.pizzashop{
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-con{
+    height: 5000px;
+    display: flex;
+
+}
+.text1{
+    width: 539px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text_shop h1{
+    font-size: 69px;
+    width: 539px;
+    height: 152px;
+    color: #FFFFFF;
+}
+.text_shop p{
+    font-size: 20px;
+    width: 411px;
+    height: 60px;
+    color: #A3A3A3;
+}
+.shazam{
+    width: 45px;
+    height: 65px;
+    position: relative;
+    top: 13px;
+}
+span{ 
+    color: white;
+}
+.korobka{
+    width: 272px;
+    height: 194px;
+    border-radius: 23px;
+    box-shadow: 0px 4px 29px 0px #FF4E151A;
+}
+.video p{
+    color: #A3A3A3;
+    font-size: 20px;
+}
+.video .knopka{
+    border-radius: 50%;
+    border: none;
+    background-color: #1D0800;
+    position: relative;
+    bottom: 82px;
+    right: 174px;
+    border: 3px solid;
+    border-image-source: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    width: 81px;
+    height: 81px;
+    border-width: 3px;
+    box-shadow: 0px 4.63px 33.56px 0px #000000;
+    box-shadow: 0px 4px 24px 0px #FF3D00AB;
+}
+.order{
+    background: linear-gradient(261.48deg, #FE9C1C -17.13%, #FF5E2A 86.76%);
+    border-radius: 100px;
+    width: 230px;
+    height: 62px;
+    color: #FFFFFF;
+    z-index: 2;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+}
+.menupiz{
+    width: 230px;
+    height: 62px;
+    border-radius: 100px;
+    background: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 1;
+    position: relative;
+    right: 45px;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+
+}
+.ctrelka1{
+    position: relative;
+    top: 140px;
+}
+.pic_con{
+    width: 456px;
+    height: 684px;
+}
+.fri{
+    width: 213px;
+    height: 226px;
+    position: absolute;
+    top: 710px;
+    right: 550px;
+}
+.polkorobka{
+    width: 456px;
+    height: 684px;
+    box-shadow: 0px 4px 33px 0px #FF4E154A;
+    border-radius: 46px;
+    z-index: 1;
+}
+.mini{
+    width: 252px;
+    height: 200px;
+    position: absolute;
+    right: 100px;
+    top: 60px;
+}
+
+.ing{
+    color: #A3A3A3;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.pizza_1{
+    box-shadow: 0px 9px 40px 0px #FF6B000F;
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.zz{
+    color: #A3A3A3;
+}
+.plus{
+    box-shadow: 0px 9px 40px 0px #FF6B000F;
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    font-size: 19px;
+    color: #FFFFFF;
+    border: none;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+}
+.pizzafoto img{
+    width: 170px;
+    height: 160px;
+}
+.pizzafoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+    height: 600px;
+    position: relative;
+    bottom: 60px;
+    z-index: 2;
+}
+.fon1{
+    width: 250px;
+    height: 500px;
+    background-color: #210A01;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.Menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
+    height: 1950px;
+    width: 100%;
+}
+.Menu h1{
+    color: #FFFFFF;
+    font-size: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.Show{
+    width: 96%;
+    height: 62px;
+    display: flex;
+    justify-content: space-around;
+}
+.Show .kp{
+    box-shadow: 0px 9px 40px 0px #FF6B000F;
+    background: #210A01;
+    height: 62px;
+    width: 230px;
+    border: none;
+    border-radius: 90px;
+    font-size: 19px;
+    color: #FFFFFF;
+}
+.all{
+    box-shadow: 0px 9px 40px 0px #FF6B000F;
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    font-size: 19px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 90px;
+    height: 53px;
+    width: 215px;
+}
+.Menu h4{
+    color: #FFFFFF;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.size_con{
+    width: 194px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.kn1{
+    background-color: #210A01;
+    color: #A3A3A3;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    border-color: #A3A3A3;
+    border: 1.5px solid #A3A3A3;
+    font-size: 14px;
+}
+.but2{
+    width: 194px;
+    height: 39px;
+    border-image-source: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    border-image-slice: 1;
+
+    border-radius: 100px;
+    border: 1.5px solid;
+    box-shadow: 0px 1.59px 30.75px 0px #ce631763;
+    font-size: 16px;
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.cell{
+    width: 194px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.minus{
+    background-color: #210A01;
+    color: #A3A3A3;
+    width: 23px;
+    height: 23px;
+    border: none;
+    border-radius: 50%;
+    border-color: #A3A3A3;
+    border: 1.5px solid #A3A3A3;
+    font-size: 19px;
+}
+button{
+    cursor: pointer;
+}
+.popular{
+    width: 89%;
+    border-radius: 34px;
+    position: relative;
+    left: 80px;
+}
+h2{
+    color: #FFFFFF;
+    font-size: 60px;
+    position: relative;
+    bottom: 230px;
+    left: 200px;
+}
+
+.even{
+    height: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.how12 .bekon{
+    position: absolute;
+    right: 1712px;
+    top: 3250px;
+    height: 218px;
+    width: 218px;
+}
+.twopizza .shav{
+    position: absolute;
+    left: 1660px;
+    top: 3500px;
+    height: 280px;
+    width: 280px;
+}
+.freec .cofe{
+    position: absolute;
+    right: 1710px;
+    top: 4170px;
+    height: 218px;
+    width: 218px;
+}
+
+.how12{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.how .cook{
+    width: 550px;
+    height: 380px;
+    background: url(fota_nah/пицрозмарин.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+.how .pir{
+    width: 550px;
+    height: 380px;
+    background: url(fota_nah/пирог.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 460px;
+}
+.how12 h1{
+    font-size: 69px;
+    color: #FFFFFF;
+}
+.how12 h5{
+    color: #A3A3A3;
+    font-size: 20px;
+    width: 460px;
+}
+.pir button{
+    position: relative;
+    top: 250px;
+    left: 70px;
+    width: 300px;
+    z-index: 2;
+}
+.cook button{
+    position: relative;
+    top: 210px;
+    left: 50px;
+    width: 300px;
+}
+.how12 p{
+    width: 220px;
+    position: relative;
+    top: 120px;
+    left: 70px;
+    z-index: 2;
+    color: #FFFFFF;
+    font-size: 34px;
+}
+
+.twopizza{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.twopizza .wom{
+    width: 600px;
+    height: 380px;
+    background: url(fota_nah/негрикж.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+.twopizza .tar{
+    width: 600px;
+    height: 380px;
+    background: url(fota_nah/говон.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+.twopizza p{
+    position: relative;
+    width: 220px;
+    top: 150px;
+    left: 70px;
+    z-index: 2;
+    color: #FFFFFF;
+    font-size: 34px;
+}
+.twopizza button{
+    position: relative;
+    top: 210px;
+    left: 50px;
+    width: 300px;
+}
+
+.freec{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.freec .half{
+    width: 520px;
+    height: 380px;
+    background: url(fota_nah/половина.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+.half button{
+    position: relative;
+    top: 210px;
+    left: 50px;
+    width: 300px;
+}
+.freec .black{
+    width: 520px;
+    height: 380px;
+    background: url(fota_nah/нига.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}.black button{
+    position: relative;
+    top: 210px;
+    left: 50px;
+    width: 300px;
+}
+.freec .sir{
+    width: 520px;
+    height: 380px;
+    background: url(Assets/сыыыр.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+.sir button{
+    position: relative;
+    top: 160px;
+    left: 50px;
+    width: 300px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: 460px;
+}
+.freec p{
+    position: relative;
+    width: 220px;
+    top: 150px;
+    left: 70px;
+    z-index: 2;
+    color: #FFFFFF;
+    font-size: 34px;
+}
+.aboutus1{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.about{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.text_con2{
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text_con2 h1{
+    color: #FFFFFF;
+    font-size: 73px;
+}
+.text_con2 p{
+    color: #A3A3A3;
+    font-size: 20px;
+    width: 460px;
+}
+.pizza img{
+    width: 150px;
+    height: 150px;
+}
+.aboutus .pic2{
+    width: 567px;
+    height: 541px;
+    border-radius: 34px;
+}
+.verh{
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 4710px;
+    left: 280px;
+}
+.niz{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.pizza{
+    height: 180px;
+    width: 500px;
+    display: flex;
+    align-items: end;
+}
+.fri1{
+    width: 213px;
+    height: 226px;
+    position: absolute;
+    top: 4870px;
+    right: 660px;
+}
+.pizpic1{
+    width: 252px;
+    height: 252px;
+    position: absolute;
+    top: 4350px;
+    right: 70px;
+}
+.vector{
+    position: absolute;
+    top: 4830px;
+    right: 935px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 436px;
+    background: linear-gradient(245.71deg, #170A00 4.96%, #170600 33.7%, #0F0700 68.41%, #170A00 96.42%);
+}
+.logo p{
+    background-image: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 19px;
+}
+.logo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.stroki h1{
+    color: #A3A3A3;
+    font-size: 20px;
+}
+.stroki p{
+    color: #515151;
+    font-size: 18px;
+}
+.stroki{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    line-height: 2;
+}
+.twit{
+    display: flex;
+    align-items: end;
+    height: 80%;
+}
