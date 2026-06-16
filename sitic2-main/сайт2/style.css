@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+.verh {
+    background-color: #fff;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.znak {
+    text-decoration: none;
+    cursor: pointer;
+}
+.znak img {
+    display: block;
+}
+.svyaz {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.ikonka {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    gap: 40px;
+    cursor: pointer;
+}
+.nomer {
+    font-size: 14px;
+    color: #4a4a8a;
+    text-decoration: none;
+    font-weight: 500;
+}
+.knopka {
+    background-color: #e85a71;
+    color: white;
+    padding: 20px 24px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+}
+.knopka:hover {
+    background-color: #d64a61;
+}
+.glavnaya {
+    padding: 80px 60px;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.levaya-chast {
+    max-width: 500px;
+    z-index: 2;
+}
+.zagolovok {
+    font-size: 42px;
+    font-weight: 700;
+    color: #5a4fcf;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.podzagolovok {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.pravaya-chast {
+    position: absolute;
+    right: 15%;
+    width: 55%;
+    max-width: 700px;
+}
+.pravaya-chast img {
+    width: 100%;
+    height: auto;
+}
+.partnery {
+    background-color: #fff;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.brend-partnera {
+    height: 30px;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+.brend-partnera:hover {
+    opacity: 1;
+}
+.etapy {
+    padding: 80px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.shagi {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    gap: 20px;
+}
+.shag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+.shag span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.soderzhanie {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.soderzhanie img {
+    flex: 1;
+    width: 100%;
+    height: auto;
+}
+.tekst-blok {
+    flex: 1;
+}
+.zagolovok {
+    font-size: 36px;
+    font-weight: 700;
+    color: #5a4fcf;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.opisanie {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.opisanie strong {
+    color: #333;
+    font-weight: 600;
+}
+.knopka1 {
+    background-color: #e85a71;
+    color: white;
+    padding: 30px 30px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+
+}
+.knopka1:hover {
+    background-color: #d64a61;
+}
+.portfolio {
+    margin: 0 auto;
+    padding: 80px 60px;
+    max-width: 1200px;
+}
+.zagolovok-sektsii {
+    font-size: 32px;
+    font-weight: 700;
+    color: #5a4fcf;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.setka {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.element {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+.element .karta {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.nazvanie {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5a4fcf;
+    margin-bottom: 10px;
+}
+.opisanie {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+}
+.knopka2 {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    color: #e85a71;
+    padding: 25px 70px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 2px solid #e85a71;
+    cursor: pointer;
+}
+.knopka2:hover {
+    background-color: #e85a71;
+    color: white;
+}
+.uslugi {
+    position: relative;
+    padding: 100px 60px;
+}
+.polosa {
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 150px;
+    height: auto;
+    background-color: #4a4a8a;
+    z-index: 0;
+}
+.kontejner-kart {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.karta-uslugi {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+}
+.karta-uslugi .karta {
+    width: 120px;
+    height: 120px;
+    margin: -100px auto 20px;
+    border-radius: 50%;
+    background-color: #e85a71;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.karta-uslugi .karta img {
+    height: 60px;
+    width: 60px;
+}
+.nazvanie-uslugi {
+    font-weight: 700;
+    color: #5a4fcf;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    font-size: 16px;
+}
+.tsena {
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.knopka3 {
+    background-color: #e85a71;
+    color: white;
+    padding: 14px 40px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+.knopka3:hover {
+    background-color: #d64a61;
+}
+.podval {
+    background-color: #fff;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+.brend-podval {
+    text-decoration: none;
+}
+.brend-podval img {
+    height: 40px;
+}
+.menyu-podval {
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+}
+.menyu-podval a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #666;
+}
+.menyu-podval a:hover {
+    color: #5a4fcf;
+}
+  
+.ikonka-dokument img {
+    height: 70px;
+    width: 70px;
+}
+.rekvizity {
+    color: #666;
+    line-height: 1.6;
+    max-width: 400px;
+    font-size: 12px;
+}
